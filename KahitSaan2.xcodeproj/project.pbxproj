@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36FAE67B8957E2B6B911A602 /* Pods_KahitSaan2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30796E7F66E3A28AEE3BC664 /* Pods_KahitSaan2Tests.framework */; };
+		633A0A542AD1426100E8D43F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A532AD1426100E8D43F /* AppDelegate.swift */; };
+		633A0A562AD1426100E8D43F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A552AD1426100E8D43F /* SceneDelegate.swift */; };
+		633A0A582AD1426100E8D43F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A572AD1426100E8D43F /* ViewController.swift */; };
+		633A0A5B2AD1426100E8D43F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633A0A592AD1426100E8D43F /* Main.storyboard */; };
+		633A0A5D2AD1426200E8D43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633A0A5C2AD1426200E8D43F /* Assets.xcassets */; };
+		633A0A602AD1426200E8D43F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633A0A5E2AD1426200E8D43F /* LaunchScreen.storyboard */; };
+		633A0A6B2AD1426200E8D43F /* KahitSaan2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A6A2AD1426200E8D43F /* KahitSaan2Tests.swift */; };
+		633A0A752AD1426200E8D43F /* KahitSaan2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A742AD1426200E8D43F /* KahitSaan2UITests.swift */; };
+		633A0A772AD1426200E8D43F /* KahitSaan2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A762AD1426200E8D43F /* KahitSaan2UITestsLaunchTests.swift */; };
+		633A0A852AD16FAC00E8D43F /* PlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A842AD16FAC00E8D43F /* PlacesManager.swift */; };
+		633A0A872AD16FC200E8D43F /* PlacesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A862AD16FC200E8D43F /* PlacesData.swift */; };
+		633A0A892AD16FD700E8D43F /* GMSPlaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A882AD16FD700E8D43F /* GMSPlaceData.swift */; };
+		633A0A8B2AD16FEE00E8D43F /* GMSPlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A8A2AD16FEE00E8D43F /* GMSPlaceModel.swift */; };
+		633A0A8E2AD1702E00E8D43F /* SegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A8D2AD1702E00E8D43F /* SegueViewController.swift */; };
+		633A0A902AD1704500E8D43F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A0A8F2AD1704500E8D43F /* TableViewCell.swift */; };
+		9C24BDECB643A4805EFEFCFA /* Pods_KahitSaan2_KahitSaan2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A289D160D9286534CF5BB3 /* Pods_KahitSaan2_KahitSaan2UITests.framework */; };
+		D8CC250E12EEE68F466BB7C2 /* Pods_KahitSaan2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B274CFF0241E9464372DC6 /* Pods_KahitSaan2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		633A0A672AD1426200E8D43F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633A0A482AD1426100E8D43F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633A0A4F2AD1426100E8D43F;
+			remoteInfo = KahitSaan2;
+		};
+		633A0A712AD1426200E8D43F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 633A0A482AD1426100E8D43F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 633A0A4F2AD1426100E8D43F;
+			remoteInfo = KahitSaan2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02303582BBF7500413A4890A /* Pods-KahitSaan2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KahitSaan2Tests.debug.xcconfig"; path = "Target Support Files/Pods-KahitSaan2Tests/Pods-KahitSaan2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D6DC4ADF3A6B78EFE6F262A /* Pods-KahitSaan2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KahitSaan2.release.xcconfig"; path = "Target Support Files/Pods-KahitSaan2/Pods-KahitSaan2.release.xcconfig"; sourceTree = "<group>"; };
+		30796E7F66E3A28AEE3BC664 /* Pods_KahitSaan2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KahitSaan2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4148BC843C6114A432DFE579 /* Pods-KahitSaan2-KahitSaan2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KahitSaan2-KahitSaan2UITests.debug.xcconfig"; path = "Target Support Files/Pods-KahitSaan2-KahitSaan2UITests/Pods-KahitSaan2-KahitSaan2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		46FBBF1D69CF7C480C3710A9 /* Pods-KahitSaan2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KahitSaan2UITests.debug.xcconfig"; path = "Target Support Files/Pods-KahitSaan2UITests/Pods-KahitSaan2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		633A0A502AD1426100E8D43F /* KahitSaan2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KahitSaan2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633A0A532AD1426100E8D43F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		633A0A552AD1426100E8D43F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		633A0A572AD1426100E8D43F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		633A0A5A2AD1426100E8D43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633A0A5C2AD1426200E8D43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633A0A5F2AD1426200E8D43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		633A0A612AD1426200E8D43F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633A0A662AD1426200E8D43F /* KahitSaan2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KahitSaan2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633A0A6A2AD1426200E8D43F /* KahitSaan2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KahitSaan2Tests.swift; sourceTree = "<group>"; };
+		633A0A702AD1426200E8D43F /* KahitSaan2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KahitSaan2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		633A0A742AD1426200E8D43F /* KahitSaan2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KahitSaan2UITests.swift; sourceTree = "<group>"; };
+		633A0A762AD1426200E8D43F /* KahitSaan2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KahitSaan2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		633A0A842AD16FAC00E8D43F /* PlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesManager.swift; sourceTree = "<group>"; };
+		633A0A862AD16FC200E8D43F /* PlacesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesData.swift; sourceTree = "<group>"; };
+		633A0A882AD16FD700E8D43F /* GMSPlaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMSPlaceData.swift; sourceTree = "<group>"; };
+		633A0A8A2AD16FEE00E8D43F /* GMSPlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMSPlaceModel.swift; sourceTree = "<group>"; };
+		633A0A8D2AD1702E00E8D43F /* SegueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueViewController.swift; sourceTree = "<group>"; };
+		633A0A8F2AD1704500E8D43F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7AECCC8342ACEBDC37AE2412 /* Pods-KahitSaan2-KahitSaan2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KahitSaan2-KahitSaan2UITests.release.xcconfig"; path = "Target Support Files/Pods-KahitSaan2-KahitSaan2UITests/Pods-KahitSaan2-KahitSaan2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		87A289D160D9286534CF5BB3 /* Pods_KahitSaan2_KahitSaan2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KahitSaan2_KahitSaan2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAA0C5A63E8D361017C7138 /* Pods-KahitSaan2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KahitSaan2Tests.release.xcconfig"; path = "Target Support Files/Pods-KahitSaan2Tests/Pods-KahitSaan2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		92B274CFF0241E9464372DC6 /* Pods_KahitSaan2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KahitSaan2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A127485CFA4B8D49AFB80D75 /* Pods-KahitSaan2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KahitSaan2UITests.release.xcconfig"; path = "Target Support Files/Pods-KahitSaan2UITests/Pods-KahitSaan2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD196B290D5FCAAD9A1622DA /* Pods-KahitSaan2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KahitSaan2.debug.xcconfig"; path = "Target Support Files/Pods-KahitSaan2/Pods-KahitSaan2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633A0A4D2AD1426100E8D43F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CC250E12EEE68F466BB7C2 /* Pods_KahitSaan2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633A0A632AD1426200E8D43F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FAE67B8957E2B6B911A602 /* Pods_KahitSaan2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633A0A6D2AD1426200E8D43F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C24BDECB643A4805EFEFCFA /* Pods_KahitSaan2_KahitSaan2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4385C02FC96919C5C44D2A11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4148BC843C6114A432DFE579 /* Pods-KahitSaan2-KahitSaan2UITests.debug.xcconfig */,
+				7AECCC8342ACEBDC37AE2412 /* Pods-KahitSaan2-KahitSaan2UITests.release.xcconfig */,
+				46FBBF1D69CF7C480C3710A9 /* Pods-KahitSaan2UITests.debug.xcconfig */,
+				A127485CFA4B8D49AFB80D75 /* Pods-KahitSaan2UITests.release.xcconfig */,
+				DD196B290D5FCAAD9A1622DA /* Pods-KahitSaan2.debug.xcconfig */,
+				0D6DC4ADF3A6B78EFE6F262A /* Pods-KahitSaan2.release.xcconfig */,
+				02303582BBF7500413A4890A /* Pods-KahitSaan2Tests.debug.xcconfig */,
+				8DAA0C5A63E8D361017C7138 /* Pods-KahitSaan2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		633A0A472AD1426100E8D43F = {
+			isa = PBXGroup;
+			children = (
+				633A0A522AD1426100E8D43F /* KahitSaan2 */,
+				633A0A692AD1426200E8D43F /* KahitSaan2Tests */,
+				633A0A732AD1426200E8D43F /* KahitSaan2UITests */,
+				633A0A512AD1426100E8D43F /* Products */,
+				4385C02FC96919C5C44D2A11 /* Pods */,
+				A98E4469D2F147B8CE1D2323 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		633A0A512AD1426100E8D43F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633A0A502AD1426100E8D43F /* KahitSaan2.app */,
+				633A0A662AD1426200E8D43F /* KahitSaan2Tests.xctest */,
+				633A0A702AD1426200E8D43F /* KahitSaan2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633A0A522AD1426100E8D43F /* KahitSaan2 */ = {
+			isa = PBXGroup;
+			children = (
+				633A0A8C2AD1701700E8D43F /* Controller */,
+				633A0A832AD16F9E00E8D43F /* Model */,
+				633A0A532AD1426100E8D43F /* AppDelegate.swift */,
+				633A0A552AD1426100E8D43F /* SceneDelegate.swift */,
+				633A0A592AD1426100E8D43F /* Main.storyboard */,
+				633A0A5C2AD1426200E8D43F /* Assets.xcassets */,
+				633A0A5E2AD1426200E8D43F /* LaunchScreen.storyboard */,
+				633A0A612AD1426200E8D43F /* Info.plist */,
+				633A0A8F2AD1704500E8D43F /* TableViewCell.swift */,
+			);
+			path = KahitSaan2;
+			sourceTree = "<group>";
+		};
+		633A0A692AD1426200E8D43F /* KahitSaan2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				633A0A6A2AD1426200E8D43F /* KahitSaan2Tests.swift */,
+			);
+			path = KahitSaan2Tests;
+			sourceTree = "<group>";
+		};
+		633A0A732AD1426200E8D43F /* KahitSaan2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				633A0A742AD1426200E8D43F /* KahitSaan2UITests.swift */,
+				633A0A762AD1426200E8D43F /* KahitSaan2UITestsLaunchTests.swift */,
+			);
+			path = KahitSaan2UITests;
+			sourceTree = "<group>";
+		};
+		633A0A832AD16F9E00E8D43F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				633A0A842AD16FAC00E8D43F /* PlacesManager.swift */,
+				633A0A862AD16FC200E8D43F /* PlacesData.swift */,
+				633A0A882AD16FD700E8D43F /* GMSPlaceData.swift */,
+				633A0A8A2AD16FEE00E8D43F /* GMSPlaceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		633A0A8C2AD1701700E8D43F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				633A0A572AD1426100E8D43F /* ViewController.swift */,
+				633A0A8D2AD1702E00E8D43F /* SegueViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A98E4469D2F147B8CE1D2323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92B274CFF0241E9464372DC6 /* Pods_KahitSaan2.framework */,
+				87A289D160D9286534CF5BB3 /* Pods_KahitSaan2_KahitSaan2UITests.framework */,
+				30796E7F66E3A28AEE3BC664 /* Pods_KahitSaan2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633A0A4F2AD1426100E8D43F /* KahitSaan2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633A0A7A2AD1426200E8D43F /* Build configuration list for PBXNativeTarget "KahitSaan2" */;
+			buildPhases = (
+				60EBFC118F900AA5C8B56A28 /* [CP] Check Pods Manifest.lock */,
+				633A0A4C2AD1426100E8D43F /* Sources */,
+				633A0A4D2AD1426100E8D43F /* Frameworks */,
+				633A0A4E2AD1426100E8D43F /* Resources */,
+				7BA2C0F44FB7DAF4EBBBCA5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KahitSaan2;
+			productName = KahitSaan2;
+			productReference = 633A0A502AD1426100E8D43F /* KahitSaan2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		633A0A652AD1426200E8D43F /* KahitSaan2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633A0A7D2AD1426200E8D43F /* Build configuration list for PBXNativeTarget "KahitSaan2Tests" */;
+			buildPhases = (
+				C8A8CA81783881425B06F7D0 /* [CP] Check Pods Manifest.lock */,
+				633A0A622AD1426200E8D43F /* Sources */,
+				633A0A632AD1426200E8D43F /* Frameworks */,
+				633A0A642AD1426200E8D43F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633A0A682AD1426200E8D43F /* PBXTargetDependency */,
+			);
+			name = KahitSaan2Tests;
+			productName = KahitSaan2Tests;
+			productReference = 633A0A662AD1426200E8D43F /* KahitSaan2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		633A0A6F2AD1426200E8D43F /* KahitSaan2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633A0A802AD1426200E8D43F /* Build configuration list for PBXNativeTarget "KahitSaan2UITests" */;
+			buildPhases = (
+				B381CBEE33DB811561D13E53 /* [CP] Check Pods Manifest.lock */,
+				633A0A6C2AD1426200E8D43F /* Sources */,
+				633A0A6D2AD1426200E8D43F /* Frameworks */,
+				633A0A6E2AD1426200E8D43F /* Resources */,
+				770AD78298D645E0711B7FB9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				633A0A722AD1426200E8D43F /* PBXTargetDependency */,
+			);
+			name = KahitSaan2UITests;
+			productName = KahitSaan2UITests;
+			productReference = 633A0A702AD1426200E8D43F /* KahitSaan2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633A0A482AD1426100E8D43F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					633A0A4F2AD1426100E8D43F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					633A0A652AD1426200E8D43F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 633A0A4F2AD1426100E8D43F;
+					};
+					633A0A6F2AD1426200E8D43F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 633A0A4F2AD1426100E8D43F;
+					};
+				};
+			};
+			buildConfigurationList = 633A0A4B2AD1426100E8D43F /* Build configuration list for PBXProject "KahitSaan2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633A0A472AD1426100E8D43F;
+			productRefGroup = 633A0A512AD1426100E8D43F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633A0A4F2AD1426100E8D43F /* KahitSaan2 */,
+				633A0A652AD1426200E8D43F /* KahitSaan2Tests */,
+				633A0A6F2AD1426200E8D43F /* KahitSaan2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633A0A4E2AD1426100E8D43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633A0A602AD1426200E8D43F /* LaunchScreen.storyboard in Resources */,
+				633A0A5D2AD1426200E8D43F /* Assets.xcassets in Resources */,
+				633A0A5B2AD1426100E8D43F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633A0A642AD1426200E8D43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633A0A6E2AD1426200E8D43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60EBFC118F900AA5C8B56A28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KahitSaan2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		770AD78298D645E0711B7FB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KahitSaan2-KahitSaan2UITests/Pods-KahitSaan2-KahitSaan2UITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KahitSaan2-KahitSaan2UITests/Pods-KahitSaan2-KahitSaan2UITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KahitSaan2-KahitSaan2UITests/Pods-KahitSaan2-KahitSaan2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BA2C0F44FB7DAF4EBBBCA5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KahitSaan2/Pods-KahitSaan2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KahitSaan2/Pods-KahitSaan2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KahitSaan2/Pods-KahitSaan2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B381CBEE33DB811561D13E53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KahitSaan2-KahitSaan2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A8CA81783881425B06F7D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KahitSaan2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633A0A4C2AD1426100E8D43F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633A0A582AD1426100E8D43F /* ViewController.swift in Sources */,
+				633A0A852AD16FAC00E8D43F /* PlacesManager.swift in Sources */,
+				633A0A8B2AD16FEE00E8D43F /* GMSPlaceModel.swift in Sources */,
+				633A0A902AD1704500E8D43F /* TableViewCell.swift in Sources */,
+				633A0A542AD1426100E8D43F /* AppDelegate.swift in Sources */,
+				633A0A8E2AD1702E00E8D43F /* SegueViewController.swift in Sources */,
+				633A0A892AD16FD700E8D43F /* GMSPlaceData.swift in Sources */,
+				633A0A562AD1426100E8D43F /* SceneDelegate.swift in Sources */,
+				633A0A872AD16FC200E8D43F /* PlacesData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633A0A622AD1426200E8D43F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633A0A6B2AD1426200E8D43F /* KahitSaan2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633A0A6C2AD1426200E8D43F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633A0A772AD1426200E8D43F /* KahitSaan2UITestsLaunchTests.swift in Sources */,
+				633A0A752AD1426200E8D43F /* KahitSaan2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		633A0A682AD1426200E8D43F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633A0A4F2AD1426100E8D43F /* KahitSaan2 */;
+			targetProxy = 633A0A672AD1426200E8D43F /* PBXContainerItemProxy */;
+		};
+		633A0A722AD1426200E8D43F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 633A0A4F2AD1426100E8D43F /* KahitSaan2 */;
+			targetProxy = 633A0A712AD1426200E8D43F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		633A0A592AD1426100E8D43F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633A0A5A2AD1426100E8D43F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633A0A5E2AD1426200E8D43F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633A0A5F2AD1426200E8D43F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		633A0A782AD1426200E8D43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		633A0A792AD1426200E8D43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		633A0A7B2AD1426200E8D43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD196B290D5FCAAD9A1622DA /* Pods-KahitSaan2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RN7MMGBVG;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KahitSaan2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.KahitSaan2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		633A0A7C2AD1426200E8D43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6DC4ADF3A6B78EFE6F262A /* Pods-KahitSaan2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RN7MMGBVG;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KahitSaan2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.KahitSaan2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		633A0A7E2AD1426200E8D43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02303582BBF7500413A4890A /* Pods-KahitSaan2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.KahitSaan2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KahitSaan2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KahitSaan2";
+			};
+			name = Debug;
+		};
+		633A0A7F2AD1426200E8D43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAA0C5A63E8D361017C7138 /* Pods-KahitSaan2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.KahitSaan2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KahitSaan2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KahitSaan2";
+			};
+			name = Release;
+		};
+		633A0A812AD1426200E8D43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4148BC843C6114A432DFE579 /* Pods-KahitSaan2-KahitSaan2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.KahitSaan2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KahitSaan2;
+			};
+			name = Debug;
+		};
+		633A0A822AD1426200E8D43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AECCC8342ACEBDC37AE2412 /* Pods-KahitSaan2-KahitSaan2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jarvis.KahitSaan2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KahitSaan2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633A0A4B2AD1426100E8D43F /* Build configuration list for PBXProject "KahitSaan2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633A0A782AD1426200E8D43F /* Debug */,
+				633A0A792AD1426200E8D43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633A0A7A2AD1426200E8D43F /* Build configuration list for PBXNativeTarget "KahitSaan2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633A0A7B2AD1426200E8D43F /* Debug */,
+				633A0A7C2AD1426200E8D43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633A0A7D2AD1426200E8D43F /* Build configuration list for PBXNativeTarget "KahitSaan2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633A0A7E2AD1426200E8D43F /* Debug */,
+				633A0A7F2AD1426200E8D43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633A0A802AD1426200E8D43F /* Build configuration list for PBXNativeTarget "KahitSaan2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633A0A812AD1426200E8D43F /* Debug */,
+				633A0A822AD1426200E8D43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 633A0A482AD1426100E8D43F /* Project object */;
+}
